@@ -80,6 +80,9 @@ Below are screenshots of the interface in action:
 
 ### Generated Output Example
 ![Gradio Interface Screenshot 2](assets/2.png)
+
+### Demo
+![demo](assets/demo.mp4)
 ##  Development Environment Setup
 
 ### 1.  Required Python Packages
