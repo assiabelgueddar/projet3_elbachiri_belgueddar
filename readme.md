@@ -1,4 +1,4 @@
-+
+
 # 🧠 Text-to-Image Generation using Stable Diffusion 3 and LoRA
 
 This project demonstrates how to generate images from text using **Stable Diffusion 3 (SD3)** with **LoRA fine-tuning**, and how to build an interactive web interface using **Gradio**.
