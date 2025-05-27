@@ -1,11 +1,11 @@
 
-# 🧠 Text-to-Image Generation using Stable Diffusion 3 and LoRA
+#  Text-to-Image Generation using Stable Diffusion 3 and LoRA
 
 This project demonstrates how to generate images from text using **Stable Diffusion 3 (SD3)** with **LoRA fine-tuning**, and how to build an interactive web interface using **Gradio**.
 
 ---
 
-## 📌 Project Objectives
+##  Project Objectives
 
 - Utilize a pre-trained SD3 model for text-to-image generation.
 - Improve domain-specific performance via LoRA fine-tuning.
@@ -14,7 +14,7 @@ This project demonstrates how to generate images from text using **Stable Diffus
 
 ---
 
-## 💻 Source Code Overview
+##  Source Code Overview
 
 ### `app.py` — Main Inference and UI Logic
 
@@ -67,16 +67,28 @@ demo.launch()
 ```
 
 ---
+##  Gradio Interface
 
-## ⚙️ Development Environment Setup
+Below are screenshots of the interface in action:
 
-### 1. 🧩 Required Python Packages
+##  Gradio Interface
+
+Below are screenshots of the interface in action:
+
+### Interface Overview
+![Gradio Interface Screenshot 1](assets/1.png)
+
+### Generated Output Example
+![Gradio Interface Screenshot 2](assets/2.png)
+##  Development Environment Setup
+
+### 1.  Required Python Packages
 
 ```bash
 pip install diffusers==0.25.0 transformers accelerate bitsandbytes peft gradio wandb safetensors
 ```
 
-### 2. 🔐 Hugging Face Authentication
+### 2.  Hugging Face Authentication
 
 To use the gated SD3 model:
 - Accept the terms at: https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers
@@ -87,7 +99,7 @@ huggingface-cli login
 
 ---
 
-## 📁 Training Pipeline
+##  Training Pipeline
 
 ### Step 1: Prepare Custom Dataset
 
@@ -127,7 +139,7 @@ accelerate launch train_text_to_image_lora.py \
 
 ---
 
-## 🧹 Optional: Memory Management
+##  Optional: Memory Management
 
 ```python
 import torch, gc
@@ -138,7 +150,7 @@ def flush():
 
 ---
 
-## 📸 Results
+##  Results
 
 - LoRA noticeably enhances the model’s coherence.
 - CPU-based inference feasible with optimizations.
@@ -146,7 +158,7 @@ def flush():
 
 ---
 
-## 📚 References
+##  References
 
 - [Stable Diffusion 3](https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers)
 - [Diffusers Library](https://github.com/huggingface/diffusers)
@@ -157,17 +169,5 @@ def flush():
 
 ---
 
-## 📷 Gradio Interface
 
-Below are screenshots of the interface in action:
-
-## 📷 Gradio Interface
-
-Below are screenshots of the interface in action:
-
-### Interface Overview
-![Gradio Interface Screenshot 1](assets/1.png)
-
-### Generated Output Example
-![Gradio Interface Screenshot 2](assets/2.png)
 
