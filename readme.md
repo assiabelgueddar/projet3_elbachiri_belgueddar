@@ -1,11 +1,11 @@
-
-#  Text-to-Image Generation using Stable Diffusion 3 and LoRA
++
+# 🧠 Text-to-Image Generation using Stable Diffusion 3 and LoRA
 
 This project demonstrates how to generate images from text using **Stable Diffusion 3 (SD3)** with **LoRA fine-tuning**, and how to build an interactive web interface using **Gradio**.
 
 ---
 
-## Project Objectives
+## 📌 Project Objectives
 
 - Utilize a pre-trained SD3 model for text-to-image generation.
 - Improve domain-specific performance via LoRA fine-tuning.
@@ -14,7 +14,7 @@ This project demonstrates how to generate images from text using **Stable Diffus
 
 ---
 
-##  Source Code Overview
+## 💻 Source Code Overview
 
 ### `app.py` — Main Inference and UI Logic
 
@@ -68,9 +68,9 @@ demo.launch()
 
 ---
 
-## Development Environment Setup
+## ⚙️ Development Environment Setup
 
-### 1.  Required Python Packages
+### 1. 🧩 Required Python Packages
 
 ```bash
 pip install diffusers==0.25.0 transformers accelerate bitsandbytes peft gradio wandb safetensors
@@ -87,7 +87,7 @@ huggingface-cli login
 
 ---
 
-## Training Pipeline
+## 📁 Training Pipeline
 
 ### Step 1: Prepare Custom Dataset
 
@@ -127,7 +127,7 @@ accelerate launch train_text_to_image_lora.py \
 
 ---
 
-##  Optional: Memory Management
+## 🧹 Optional: Memory Management
 
 ```python
 import torch, gc
@@ -138,7 +138,7 @@ def flush():
 
 ---
 
-##  Results
+## 📸 Results
 
 - LoRA noticeably enhances the model’s coherence.
 - CPU-based inference feasible with optimizations.
@@ -146,10 +146,23 @@ def flush():
 
 ---
 
-##  References
+## 📚 References
 
 - [Stable Diffusion 3](https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers)
 - [Diffusers Library](https://github.com/huggingface/diffusers)
 - [LoRA Paper](https://arxiv.org/abs/2106.09685)
 - [Gradio](https://www.gradio.app)
 - [Stability AI](https://stability.ai)
+
+
+---
+
+## 📷 Gradio Interface
+
+Below are screenshots of the interface in action:
+
+### Interface Overview
+![Gradio Interface Screenshot 1](AI Incident Automation Pitch Deck by Slidesgo_page-0007.jpg)
+
+### Generated Output Example
+![Gradio Interface Screenshot 2](AI Incident Automation Pitch Deck by Slidesgo_page-0008.jpg)
