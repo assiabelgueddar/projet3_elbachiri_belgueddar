@@ -83,7 +83,7 @@ Below are screenshots of the interface in action:
 
 ###  Demo
 
-[▶ Cliquez ici pour voir la démo](assets/demo.mp4)
+[[▶ Cliquez ici pour voir la démo](assets/demo.mp4)](https://github.com/assiabelgueddar/projet3_elbachiri_belgueddar/issues/1)
 
 ##  Development Environment Setup
 
