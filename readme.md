@@ -161,8 +161,13 @@ def flush():
 
 Below are screenshots of the interface in action:
 
+## 📷 Gradio Interface
+
+Below are screenshots of the interface in action:
+
 ### Interface Overview
-![Gradio Interface Screenshot 1](AI Incident Automation Pitch Deck by Slidesgo_page-0007.jpg)
+![Gradio Interface Screenshot 1](assets/1.png)
 
 ### Generated Output Example
-![Gradio Interface Screenshot 2](AI Incident Automation Pitch Deck by Slidesgo_page-0008.jpg)
+![Gradio Interface Screenshot 2](assets/2.png)
+
